@@ -1,0 +1,229 @@
+<html>
+    <head>
+        <title>The UN SDGs</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+        <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 1.2rem;
+    }
+
+    body {
+      background-color: #242a8d;
+      line-height: 1.6;
+    }
+
+    .header {
+      background-color: #242a8d;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .header-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.3;
+      z-index: 0;
+    }
+
+    .header-content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .section {
+      background-color: #ffffff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+      min-height: 80vh;
+    }
+
+    .sdgcard-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .sdgcard {
+      background-color: #f8f8f8;
+      padding: 1.5rem;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+      text-decoration: none;
+      display: block;
+      color: inherit;
+    }
+
+    .sdgcard:hover {
+      transform: translateY(-5px);
+    }
+
+    .sdgcard img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+
+    .sdgcard h3 {
+      color: black;
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .sdgcard p {
+      color: black;
+      font-size: 1rem;
+    }
+
+    h2 {
+      font-size: 80px;
+      color:White;
+    }
+
+    .sdg-1 { background-color: #e5243b; }
+    .sdg-2 { background-color: #DDA63A; }
+    .sdg-3 { background-color: #4C9F38; }
+    .sdg-4 { background-color: #C5192D; }
+    .sdg-5 { background-color: #FF3A21; }
+    .sdg-6 { background-color: #26BDE2; }
+    .sdg-7 { background-color: #FCC30B; }
+    .sdg-8 { background-color: #A21942; }
+    .sdg-9 { background-color: #FD6925; }
+    .sdg-10 { background-color: #DD1367; }
+    .sdg-11 { background-color: #FD9D24; }
+    .sdg-12 { background-color: #BF8B2E; }
+    .sdg-13 { background-color: #3F7E44; }
+    .sdg-14 { background-color: #0A97D9; }
+    .sdg-15 { background-color: #56C02B; }
+    .sdg-16 { background-color: #00689D; }
+    .sdg-17 { background-color: #19486A; }
+
+  </style>
+    </head>
+    <body>
+        <header class="header">
+            <img src="e.jpg" class="header-bg" alt="Background image">
+            <div class="header-content">
+                <br><br>
+                <h2>The United Nations SDGs</h2>
+                <br>
+            </div>
+        </header>
+       <section class="section">
+      <div class="sdgcard-grid">
+        <a href="https://dashboards.sdgindex.org/map/goals/SDG1" class="sdgcard sdg-1">
+          <h3>SDG 1: No Poverty</h3>
+          <p>End poverty in all its forms everywhere by 2030.</p>
+        </a>
+        
+        <a href="https://dashboards.sdgindex.org/map/goals/SDG2" class="sdgcard sdg-2">
+          <h3>SDG 2: Zero Hunger</h3>
+          <p>End hunger, achieve food security and improved nutrition, and promote sustainable agriculture.</p>
+        </a>
+        
+        <a href="https://dashboards.sdgindex.org/map/goals/SDG3" class="sdgcard sdg-3">
+          <h3>SDG 3: Good Health</h3>
+          <p>Ensure healthy lives and promote well-being for all at all ages.</p>
+        </a>
+        
+        <a href="https://dashboards.sdgindex.org/map/goals/SDG4" class="sdgcard sdg-4">
+          <h3>SDG 4: Quality Education</h3>
+          <p>Ensure inclusive and equitable quality education for all.</p>
+        </a>
+        
+        <a href="https://dashboards.sdgindex.org/map/goals/SDG5" class="sdgcard sdg-5">
+          <h3>SDG 5: Gender Equality</h3>
+          <p>Achieve gender equality and empower all women and girls.</p>
+        </a>
+        
+        <a href="https://dashboards.sdgindex.org/map/goals/SDG6" class="sdgcard sdg-6">
+          <h3>SDG 6: Clean Water</h3>
+          <p>Ensure availability and sustainable management of water and sanitation for all.</p>
+        </a>
+        
+        <a href="https://dashboards.sdgindex.org/map/goals/SDG7" class="sdgcard sdg-7">
+          <h3>SDG 7: Affordable Energy</h3>
+          <p>Ensure access to affordable, reliable, sustainable and modern energy for all.</p>
+        </a>
+        
+        <a href="https://dashboards.sdgindex.org/map/goals/SDG8" class="sdgcard sdg-8">
+          <h3>SDG 8: Decent Work</h3>
+          <p>Promote sustained, inclusive and sustainable economic growth with productive employment.</p>
+        </a>
+        
+        <a href="https://dashboards.sdgindex.org/map/goals/SDG9" class="sdgcard sdg-9">
+          <h3>SDG 9: Industry & Innovation</h3>
+          <p>Build resilient infrastructure, promote sustainable industrialization and foster innovation.</p>
+        </a>
+        
+        <a href="https://dashboards.sdgindex.org/map/goals/SDG10" class="sdgcard sdg-10">
+          <h3>SDG 10: Reduced Inequalities</h3>
+          <p>Reduce inequality within and among countries.</p>
+        </a>
+        
+        <a href="https://dashboards.sdgindex.org/map/goals/SDG11" class="sdgcard sdg-11">
+          <h3>SDG 11: Sustainable Cities</h3>
+          <p>Make cities inclusive, safe, resilient and sustainable.</p>
+        </a>
+        
+        <a href="https://dashboards.sdgindex.org/map/goals/SDG12" class="sdgcard sdg-12">
+          <h3>SDG 12: Responsible Consumption</h3>
+          <p>Ensure sustainable consumption and production patterns.</p>
+        </a>
+        
+        <a href="https://dashboards.sdgindex.org/map/goals/SDG13" class="sdgcard sdg-13">
+          <h3>SDG 13: Climate Action</h3>
+          <p>Take urgent action to combat climate change and its impacts.</p>
+        </a>
+        
+        <a href="https://dashboards.sdgindex.org/map/goals/SDG14" class="sdgcard sdg-14">
+          <h3>SDG 14: Life Below Water</h3>
+          <p>Conserve and sustainably use the oceans, seas and marine resources.</p>
+        </a>
+        
+        <a href="https://dashboards.sdgindex.org/map/goals/SDG15" class="sdgcard sdg-15">
+          <h3>SDG 15: Life on Land</h3>
+          <p>Protect, restore and promote sustainable use of terrestrial ecosystems.</p>
+        </a>
+        
+        <a href="https://dashboards.sdgindex.org/map/goals/SDG16" class="sdgcard sdg-16">
+          <h3>SDG 16: Peace & Justice</h3>
+          <p>Promote peaceful and inclusive societies with access to justice for all.</p>
+        </a>
+        
+        <a href="https://dashboards.sdgindex.org/map/goals/SDG17" class="sdgcard sdg-17">
+          <h3>SDG 17: Partnerships</h3>
+          <p>Strengthen global partnerships to support and achieve the SDGs.</p>
+        </a>
+      </div>
+    </section>
+    </body>
+</html>
